@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee      http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+    <!-- the definitions for the servlets -->
+    <servlet>
+        <servlet-name>TODC</servlet-name>
+        <servlet-class>TODC.Main_TODC</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>OutputTODC</servlet-name>
+        <servlet-class>data.OutputTODC</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Answer</servlet-name>
+        <servlet-class>objects.Answer</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CheckType</servlet-name>
+        <servlet-class>TODC.CheckType</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ReadXML</servlet-name>
+        <servlet-class>data.QueryXML</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>XMLFormat</servlet-name>
+        <servlet-class>objects.XMLFormat</servlet-class>
+    </servlet>
+    <!-- the mapping for the servlets -->
+    <servlet>
+        <servlet-name>QueryXMLdir</servlet-name>
+        <servlet-class>data.QueryXMDir</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>OutputTODC</servlet-name>
+        <url-pattern>/OutputTODC</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>TODC</servlet-name>
+        <url-pattern>/input</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CheckType</servlet-name>
+        <url-pattern>/CheckType</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>QueryXMLdir</servlet-name>
+        <url-pattern>/QueryXMLdir</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>SignIn.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <Aircraft Code="A330243">
+        <toplabel>A330243</toplabel>
+        <toplabel_input>0,tail,6.25em</toplabel_input>
+        <toplabel_val>1,0,6,null,null,Please enter tail in format XX-XXX</toplabel_val>
+        <L1>AIRPORT</L1>
+        <L1_input>0,airport,6.25em</L1_input>
+        <L1_val>1,0,4,null,null,Please enter four letter airport ICAO code</L1_val>
+        <L2>RUNWAY</L2>
+        <L2_input>0,runway,6.25em</L2_input>
+        <L2_val>1,0,null,null,null,Please enter runway</L2_val>
+        <L3>TAXIWAY</L3>
+        <L3_input>0,taxiway,3.125em</L3_input>
+        <L4>SPECIAL</L4>
+        <L4_input>0,special,3.125em</L4_input>
+        <L6>PLANNED TOW</L6>
+        <L6_input>0,inputweight,6.25em</L6_input>
+        <L8>PACKS</L8>
+        <L8_input>1,bleeds,6.25em,ON,ON,selected,OFF,OFF,null,</L8_input>
+        <L9>ANTI ICE</L9>
+        <L9_input>1,aice,6.25em,OFF,OFF,selected,ENG,ENGINE,null,ENGWNG,ENGINE WING,null,</L9_input>
+        <L10></L10>
+        <R1>WIND</R1>
+        <R2>OAT</R2>
+        <R2_input>0,temp,6.25em</R2_input>
+        <R3>QNH</R3>
+        <R3_input>0,QNH,6.25em</R3_input>
+        <R4>RWY COND></R4>
+        <R4_input>1,surface,4.5em,DRY,DRY,selected,WET,WET,null,</R4_input>
+        <R5>CONFIG</R5>
+        <R5_input>1,flaps,6.25em,Opt,Optimum,selected,15,15,null,30,30,null,40,40,null,</R5_input>
+        <R6>MEL 1</R6>
+        <R6_input>1,MEL1,6.25em,0,Anti-Skid,null,1,Thrust Reverser,null,null,<!--blank-->,selected,</R6_input>
+        <R7>MEL 2</R7>
+        <R7_input>1,MEL2,6.25em,0,Anti-Skid,null,1,Thrust Reverser,null,null,<!--blank-->,selected,</R7_input>
+        <R8>CDL 1</R8>
+        <R8_input>0,CDL1,6.25em</R8_input>
+        <R9>CDL 2</R9>
+        <R9_input>0,CDL2,6.25em</R9_input>
+        <R10></R10>
+    </Aircraft>
+    <Aircraft Code="B737800W">
+        <toplabel>B737800W</toplabel>
+        <toplabel_input>0,tail,6.25em</toplabel_input>
+        <L1>AIRPORT</L1>
+        <L1_input>0,airport,6.25em</L1_input>
+        <L2>RUNWAY</L2>
+        <L2_input>0,runway,6.25em</L2_input>
+        <L3>TAXIWAY</L3>
+        <L3_input>0,taxiway,3.125em</L3_input>
+        <L4>SPECIAL</L4>
+        <L4_input>0,special,3.125em</L4_input>
+        <L6>PLANNED TOW</L6>
+        <L6_input>0,inputweight,6.25em</L6_input>
+        <L8>PACKS</L8>
+        <L8_input>1,bleeds,6.25em,ON,ON,selected,OFF,OFF,null,</L8_input>
+        <L9>ANTI ICE</L9>
+        <L9_input>1,aice,6.25em,OFF,OFF,selected,ENG,ENGINE,null,ENGWNG,ENGINE WING,null,</L9_input>
+        <L10></L10>
+        <R1>WIND</R1>
+        <R2>OAT</R2>
+        <R2_input>0,temp,6.25em</R2_input>
+        <R3>QNH</R3>
+        <R3_input>0,QNH,6.25em</R3_input>
+        <R4>RWY COND></R4>
+        <R4_input>1,surface,4.5em,DRY,DRY,selected,WET,WET,null,</R4_input>
+        <R5>CONFIG</R5>
+        <R5_input>1,flaps,6.25em,Opt,Optimum,selected,15,15,null,30,30,null,40,40,null,</R5_input>
+        <R6>MEL 1</R6>
+        <R6_input>1,MEL1,6.25em,0,Anti-Skid,null,1,Thrust Reverser,null,null,<!--blank-->,selected,</R6_input>
+        <R7>MEL 2</R7>
+        <R7_input>1,MEL2,6.25em,0,Anti-Skid,null,1,Thrust Reverser,null,null,<!--blank-->,selected,</R7_input>
+        <R8>CDL 1</R8>
+        <R8_input>1,CDL1,6.25em,0,Item 1,null,1,Item 2,null,null,<!--blank-->,selected,</R8_input>
+        <R9>CDL 2</R9>
+        <R9_input>1,CDL1,6.25em,0,Item 1,null,1,Item 2,null,null,<!--blank-->,selected,</R9_input>
+        <R10></R10>
+    </Aircraft>
+    <Aircraft Code="B777300ER">
+        <toplabel>B777300ER</toplabel>
+        <toplabel_input>0,tail,6.25em</toplabel_input>
+        <L1>AIRPORT</L1>
+        <L1_input>0,airport,6.25em</L1_input>
+        <L2>RUNWAY</L2>
+        <L2_input>0,runway,6.25em</L2_input>
+        <L3>TAXIWAY</L3>
+        <L3_input>0,taxiway,3.125em</L3_input>
+        <L4>SPECIAL</L4>
+        <L4_input>0,special,3.125em</L4_input>
+        <L6>PLANNED TOW</L6>
+        <L6_input>0,inputweight,6.25em</L6_input>
+        <L8>PACKS</L8>
+        <L8_input>1,bleeds,6.25em,ON,ON,selected,OFF,OFF,null,</L8_input>
+        <L9>ANTI ICE</L9>
+        <L9_input>1,aice,6.25em,OFF,OFF,selected,ENG,ENGINE,null,ENGWNG,ENGINE WING,null,</L9_input>
+        <L10></L10>
+        <R1>WIND</R1>
+        <R2>OAT</R2>
+        <R2_input>0,temp,6.25em</R2_input>
+        <R3>QNH</R3>
+        <R3_input>0,QNH,6.25em</R3_input>
+        <R4>RWY COND></R4>
+        <R4_input>1,surface,4.5em,DRY,DRY,selected,WET,WET,null,</R4_input>
+        <R5>CONFIG</R5>
+        <R5_input>1,flaps,6.25em,Opt,Optimum,selected,15,15,null,30,30,null,40,40,null,</R5_input>
+        <R6>MEL 1</R6>
+        <R6_input>1,MEL1,6.25em,0,Anti-Skid,null,1,Thrust Reverser,null,null,<!--blank-->,selected,</R6_input>
+        <R7>MEL 2</R7>
+        <R7_input>1,MEL2,6.25em,0,Anti-Skid,null,1,Thrust Reverser,null,null,<!--blank-->,selected,</R7_input>
+        <R8>CDL 1</R8>
+        <R8_input>1,CDL1,6.25em,0,Item 1,null,1,Item 2,null,null,<!--blank-->,selected,</R8_input>
+        <R9>CDL 2</R9>
+        <R9_input>1,CDL1,6.25em,0,Item 1,null,1,Item 2,null,null,<!--blank-->,selected,</R9_input>
+        <R10></R10>
+    </Aircraft>
+</root>

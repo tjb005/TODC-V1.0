@@ -1,0 +1,256 @@
+body {
+	background-color:#E4E4E4;
+	color:#363636;
+	font-size: 14px;
+	height:auto;
+}
+
+/*! classes */
+
+.container-signin {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top:25px;
+  padding-bottom:35px;
+  background-color:#FFFFFF;
+}
+
+/*! link spacing changes */
+.nav > li > a {
+  position: relative;
+  display: block;
+  padding: 10px 7px;
+}
+
+/*! top bar changes */
+.navbar-nav {
+  float: left;
+  margin: 0;
+}
+
+.navbar-nav > li {
+  float: left;
+}
+
+.navbar-nav > li > a {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.navbar-nav.navbar-right:last-child {
+  margin-right: -15px;
+}
+
+@media (min-width: 768px) {
+  .navbar-collapse {
+    width: auto;
+    border-top: 1px solid transparent;
+    box-shadow: none;
+  }
+}
+
+.navbar-inverse {
+  background-color:#303030;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #FFF200;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus, {
+  color: #3CB878;
+  background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: #3CB878;
+  background-color: #252525;
+}
+
+.navbar-inverse .navbar-toggle {
+  border-color: #3CB878;
+}
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+  background-color: #333;
+}
+
+/*! bottom bar changes */
+
+.navbar-fixed-bottom {
+  padding-bottom: 0px;
+}
+
+/*! form changes */
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 12px;
+  line-height: 1.42857143;
+  color: #363636;
+  background-color: #c5c5c5;
+  background-image: none;
+  border: 0px;
+  border-radius: 0px;
+  -webkit-box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0);
+          box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0);
+  -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+          transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.form-control:focus {
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(175, 255, 199, .6);
+          box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(175, 255, 199, .6);
+}
+
+.form-horizontal .control-label {
+	padding-left:15px;
+	font-size:12px;
+}
+
+.control-label {
+	font-size:12px;
+}
+
+.form {
+	font-size:12px;
+}
+
+@media (min-width: 768px) {
+	
+  .form-horizontal .control-label {
+    text-align: left;
+  }
+  
+}
+
+.styled-select select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color:#fffde1;
+}
+
+/*! bottom bar changes */
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 0px;
+}
+
+.btn-clear {
+  background-color: #303030;
+  color:#FFFFFF;
+}
+
+.btn-clear:hover,
+.btn-clear:focus,
+.btn-clear:active,
+.btn-clear.active,
+.open .dropdown-toggle.btn-default {
+  color: #333;
+  background-color: #f2ec82;
+  border-color: #d8d03c;
+}
+
+.btn-default {
+	background-color:#303030;
+	color:#FFFFFF;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active,
+.open .dropdown-toggle.btn-default {
+  color: #333;
+  background-color: #3CB878;
+  border-color: #1ea161;
+}
+
+.btn-signout {
+	background-color:#303030;
+	color:#FFFFFF;
+}
+
+.btn-signout:hover,
+.btn-signout:focus,
+.btn-signout:active,
+.btn-signout.active,
+.open .dropdown-toggle.btn-signout {
+  color: #333;
+  background-color: #d03737;
+  border-color: #a31a1a;
+}
+
+/*! calculator button changes */
+
+.btn-calc {
+  background-color:#303030;
+  color:#FFFFFF;	
+  display: inline-block;
+  padding: 10px 10px;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  width:32%;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 0px;
+  margin-bottom:4px;
+}
+
+.btn-calc:hover,
+.btn-calc:focus,
+.btn-calc:active,
+.btn-calc.active,
+.open .dropdown-toggle.btn-default {
+  color: #333;
+  background-color: #3CB878;
+  border-color: #1ea161;
+}
+
+.navbar-btn {
+	margin-left: 8px;
+	padding-bottom: 13px;
+}
+
+.navbar-fixed-bottom {
+}
+
+/*! ids */
+
+#extra-info {
+	margin-top: 15px;
+}
